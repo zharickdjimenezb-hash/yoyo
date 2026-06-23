@@ -1,0 +1,96 @@
+/* Estilo general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Encabezado */
+header{
+    background-color: #000000;
+    color: rgba(249, 246, 246, 0.936);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1{
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+header p{
+    font-size: 1.1rem;
+}
+
+/* Secciones */
+section{
+    background-color: white;
+    margin: 20px auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+section h2{
+    color: #000056;
+    margin-bottom: 15px;
+}
+
+/* Lista de servicios */
+ul{
+    padding-left: 20px;
+}
+
+li{
+    margin-bottom: 8px;
+}
+
+/* Contacto */
+section p{
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer{
+    background-color: #070248;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+.baymax{
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.header-baymax{
+    position: relative;
+}
+@keyframes deslizarYAparecer {
+    0%{
+        opacity: 0;
+        transform: translate(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+.header-baymax{
+    text-align: center;
+    color: rgb(8, 17, 86);
+    /*NombreAnimacion | duracion | tipo de ritmo | retraso (opcional) | repeticiones (opcional)*/
+    /*animation: deslizarYAparecer 1.5s ease-out;*/
+    animation: deslizarYAparecer 2s ease-out;
+
+}
