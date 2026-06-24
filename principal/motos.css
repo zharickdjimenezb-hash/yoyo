@@ -1,0 +1,108 @@
+body {
+    font-family: "Audiowide", sans-serif;
+    margin: 0;
+    font-weight: 200;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    background-color: #111;
+    color: white;
+}
+.hola{
+    color: #36d8f5;
+    text-align: center;
+}
+.caja{
+    width: 300px;
+    margin: 15px;
+    padding: 15px;
+    display: inline-block;
+
+    background-color: #222;
+    border: 2px solid silver;
+    border-radius: 10px;
+    transition: 0.3s;
+    align-items: center;
+}
+
+.caja:hover{
+    transform: scale(1.05);
+}
+.imagen{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.precio{
+    color: silver;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.recomendado{
+    color: #00ff99;
+    font-weight: bold;
+}
+.azul{
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.negro{
+    background-color: black;
+    color: silver;
+    border: 1px solid silver;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: #25D366;
+    font-size: 35px;
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: 0.3s;
+    background-image: url(what.jpg);
+    background-size: cover;
+    background-position: center;
+}
+whatsapp:hover{
+    transform: scale(1.1);
+}
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: #25D366;
+    font-size: 35px;
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: 0.3s;
+    background-image: url(des.jpg);
+    background-size: cover;
+    background-position: center;
+}
+whatsapp:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,124 @@
+/* Estilo general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+   font-family:  "Audiowide", sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #ffffff;
+    background-image: url(fondo.jpg);
+}
+
+/* Encabezado */
+header{
+    background-color: #000000;
+    color: rgba(255, 255, 255, 0.936);
+    text-align: center;
+    padding: 40px 20px;
+      color: #fff;
+    font-size: 2rem;
+  font-family:  "Audiowide", sans-serif;
+  text-shadow: 
+    0 0 2px #fff,
+    0 0 10px #fff,
+    0 0 20px #1100ff,
+    0 0 30px #0d00ff,
+    0 0 30px #0000ff,
+    0 0 10px rgb(255, 255, 255)
+}
+
+header h1{
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+header p{
+    font-size: 1.1rem;
+}
+
+/* Secciones */
+section{
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.87);
+}
+
+section h2{
+    color: #000056;
+    margin-bottom: 15px;
+}
+
+/* Lista de servicios */
+ul{
+    padding-left: 20px;
+}
+
+li{
+    margin-bottom: 8px;
+}
+
+/* Contacto */
+section p{
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer{
+    background-color: #070248;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+.baymax{
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.header-baymax{
+    position: relative;
+
+}
+@keyframes deslizarYAparecer {
+    0%{
+        opacity: 0;
+        transform: translate(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+.header-baymax{
+    text-align: center;
+    
+    /*NombreAnimacion | duracion | tipo de ritmo | retraso (opcional) | repeticiones (opcional)*/
+    /*animation: deslizarYAparecer 1.5s ease-out;*/
+    animation: deslizarYAparecer 2s ease-out;
+
+}
+.nilo{
+    background-color: rgb(0, 0, 0);
+}
+.neon{
+  color: #fff;
+    font-size: 2rem;
+  font-family:  "Audiowide", sans-serif;
+  text-shadow: 
+    0 0 2px #fff,
+    0 0 10px #fff,
+    0 0 20px #1100ff,
+    0 0 30px #0d00ff,
+    0 0 30px #0000ff,
+    0 0 10px #ff00
+}
