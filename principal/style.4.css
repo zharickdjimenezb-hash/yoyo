@@ -122,3 +122,7 @@ footer{
     0 0 30px #0000ff,
     0 0 10px #ff00
 }
+
+.container {
+    color: black;
+}

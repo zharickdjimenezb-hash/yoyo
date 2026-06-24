@@ -1,11 +1,20 @@
 * {
     box-sizing: border-box;
+    
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Black Ops One", system-ui;
     margin: 0;
     background-color: #6c7691;
+      text-shadow: 
+    0 0 2px #fff,
+    0 0 10px #fff,
+    0 0 20px #1100ff,
+    0 0 30px #0d00ff,
+    0 0 30px #0000ff,
+    
+    
 }
 
 h1 { font-size: 3.5rem; }
@@ -101,23 +110,11 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #0056b3;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 
-#principio {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 80vh;
-    color: white;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://www.harley-davidson.com/ctfasset/5vy1mse9fkav/B9IHmgQQvskImiKUQl0uo/218c23610c8b0dd4b0d597e6fd43f4e0/icon-fbgg-mc.jpg?impolicy=myresize&rw=960');
-    background-size: cover;
-    background-position: center;
-    background-image: url(motito.jpg);
-}
+
 
 #principio h1 {
     color: wheat;
@@ -188,7 +185,7 @@ header nav a:hover {
 #ultimo {
     text-align: center;
     padding: 60px 0;
-    background-color: #333;
+    background-color: #000000;
     color: white;
 }
 
@@ -220,4 +217,66 @@ footer {
 }
 .whatsapp:hover{
     transform: scale(1.1);
+}
+
+
+body {
+    font-family:  "Audiowide", sans-serif;
+    margin: 0;
+    font-weight: 200;
+    font-style: normal;
+    
+}
+
+.hero {
+    background-image: url(Azul.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(fondo.jpg);
+
+}
+
+.hero-container {
+    color: rgb(255, 255, 255);
+}
+
+.btn-primario {
+    background-color: rgb(14, 12, 83);
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.btn-primario:hover {
+    background-color:  rgb(46, 43, 131);
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 15px  white;
+}
+
+.hero{
+    background-color: #000000;
+    color: rgba(255, 255, 255, 0.936);
+    text-align: center;
+    padding: 40px 20px;
+    color: #fff;
+    font-size: 2rem;
+    font-family:  "Audiowide", sans-serif;
+    text-shadow: 
+    0 0 2px #fff,
+    0 0 10px #fff,
+    0 0 20px #1100ff,
+    0 0 30px #0d00ff,
+    0 0 30px #0000ff,
+    0 0 10px rgb(255, 255, 255)
 }

@@ -8,6 +8,7 @@ body{
     margin: 0;
     background-color: #111;
     color: white;
+    border: #0066ff;
 }
 .hola{
     color: #36d8f5;
@@ -102,7 +103,53 @@ whatsapp:hover{
     background-image: url(des.jpg);
     background-size: cover;
     background-position: center;
-}
+ }   
+
 whatsapp:hover{
     transform: scale(1.1);
+}
+.inicio{
+    background-color: rgb(14, 12, 83);
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.navbar-bland {
+    background-color: rgb(14, 12, 83);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.0rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  text-shadow: 
+    0 0 2px #fff,
+    0 0 10px #fff,
+    0 0 20px #1100ff,
+    0 0 30px #0d00ff,
+    0 0 30px #0000ff,
+    0 0 10px rgb(255, 255, 255)
+}
+.btn-primario {
+    font-family: "Audiowide", sans-serif;
+    background-color: rgb(14, 12, 83);
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn-primario:hover {
+    background-color:  rgb(46, 43, 131);
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 15px  white;
 }
