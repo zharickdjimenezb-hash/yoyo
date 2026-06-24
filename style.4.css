@@ -3,21 +3,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body{
-    font-family: Arial, sans-serif;
+   font-family:  "Audiowide", sans-serif;
     line-height: 1.6;
     background-color: #ffffff;
-    color: #333;
+    color: #ffffff;
+    background-image: url(fondo.jpg);
 }
 
 /* Encabezado */
 header{
     background-color: #000000;
-    color: rgba(249, 246, 246, 0.936);
+    color: rgba(255, 255, 255, 0.936);
     text-align: center;
     padding: 40px 20px;
+      color: #fff;
+    font-size: 2rem;
+  font-family:  "Audiowide", sans-serif;
+  text-shadow: 
+    0 0 2px #fff,
+    0 0 10px #fff,
+    0 0 20px #1100ff,
+    0 0 30px #0d00ff,
+    0 0 30px #0000ff,
+    0 0 10px rgb(255, 255, 255)
 }
 
 header h1{
@@ -31,12 +43,12 @@ header p{
 
 /* Secciones */
 section{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin: 20px auto;
     padding: 25px;
     width: 80%;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.87);
 }
 
 section h2{
@@ -61,7 +73,7 @@ section p{
 /* Pie de página */
 footer{
     background-color: #070248;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 15px;
     margin-top: 20px;
@@ -75,6 +87,7 @@ footer{
 
 .header-baymax{
     position: relative;
+
 }
 @keyframes deslizarYAparecer {
     0%{
@@ -88,9 +101,24 @@ footer{
 }
 .header-baymax{
     text-align: center;
-    color: rgb(8, 17, 86);
+    
     /*NombreAnimacion | duracion | tipo de ritmo | retraso (opcional) | repeticiones (opcional)*/
     /*animation: deslizarYAparecer 1.5s ease-out;*/
     animation: deslizarYAparecer 2s ease-out;
 
+}
+.nilo{
+    background-color: rgb(0, 0, 0);
+}
+.neon{
+  color: #fff;
+    font-size: 2rem;
+  font-family:  "Audiowide", sans-serif;
+  text-shadow: 
+    0 0 2px #fff,
+    0 0 10px #fff,
+    0 0 20px #1100ff,
+    0 0 30px #0d00ff,
+    0 0 30px #0000ff,
+    0 0 10px #ff00
 }
